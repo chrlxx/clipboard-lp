@@ -272,7 +272,7 @@ section .section div h3 {
 
 footer {
   font-size: 16px;
-  padding: 3% 5% 0 5%;
+  padding: 45px 5% 0 5%;
   background-color: #eeeeee;
 }
 
@@ -331,4 +331,158 @@ footer .attribution a {
 
 footer .attribution a:hover {
   color: #26baa4;
+}
+
+@media screen and (max-width: 980px) and (min-width: 769px) {
+  .workflow > .three-sections {
+    padding: 0 7.5%;
+    grid-template-columns: 1fr 1fr;
+  }
+  .workflow > .three-sections div:last-child {
+    margin-top: 20px;
+    grid-column: 1/3;
+  }
+  .workflow > .three-sections div:last-child p {
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro h1 {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+  .intro p {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+  .intro ul {
+    display: block;
+  }
+  .intro ul li > button {
+    width: 250px;
+    margin-bottom: 15px;
+  }
+  .keep-track {
+    margin: 50px 0;
+  }
+  .keep-track h2 {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  .keep-track p {
+    width: 90%;
+  }
+  section {
+    display: block;
+    text-align: center;
+  }
+  section img {
+    width: 80%;
+    margin: 0 auto;
+    position: initial;
+    margin-bottom: 10px;
+  }
+  section .section > div {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  section .section > div h3 {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+  }
+  .access {
+    margin: 75px 0 25px 0;
+  }
+  .access h2 {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  .access p {
+    width: 90%;
+    margin-bottom: 50px;
+  }
+  .access img {
+    width: 80%;
+  }
+  .workflow > div > h2 {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .workflow .three-sections {
+    display: block;
+    margin: 50px 0;
+  }
+  .workflow .three-sections > div {
+    margin-bottom: 40px;
+  }
+  .workflow .three-sections > div > img {
+    margin-bottom: 15px;
+  }
+  .workflow .three-sections > div > h3 {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  .workflow .three-sections > div > p {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .images {
+    grid-template-columns: 1fr;
+  }
+  .images img {
+    width: auto;
+    height: 50px;
+    margin: 20px 0;
+    grid-gap: 2.5%;
+    gap: 2.5%;
+  }
+  .download {
+    margin: 150px 0 75px 0;
+  }
+  .download h2 {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  .download p {
+    width: 90%;
+    margin-bottom: 32.5px;
+  }
+  .download ul {
+    display: block;
+  }
+  .download ul li {
+    margin: 15px 0;
+  }
+  .download ul li button {
+    width: 250px;
+  }
+  footer div {
+    display: block;
+    text-align: center;
+  }
+  footer div ul {
+    margin-top: 20px;
+  }
+  footer div ul > li {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  footer div .icons {
+    display: flex;
+    margin: 0 auto;
+    width: fit-content;
+  }
+  footer div .icons li {
+    margin: 0 15px;
+  }
 }
