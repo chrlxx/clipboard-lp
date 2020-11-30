@@ -69,9 +69,12 @@ header nav {
 }
 
 .intro ul {
-  gap: 20px;
   display: flex;
   justify-content: center;
+}
+
+.intro ul li {
+  margin: 0 10px;
 }
 
 .intro ul li button {
@@ -175,7 +178,7 @@ section .section div h3 {
 
 .workflow .three-sections {
   display: grid;
-  padding: 0 10%;
+  padding: 0 2.5%;
   margin: 100px 0;
   gap: 2.5%;
   grid-gap: 2.5%;
@@ -189,7 +192,7 @@ section .section div h3 {
 }
 
 .workflow .three-sections div h3 {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .workflow .three-sections div p {
@@ -228,9 +231,12 @@ section .section div h3 {
 }
 
 .download ul {
-  gap: 20px;
   display: flex;
   justify-content: center;
+}
+
+.download ul li {
+  margin: 0 10px;
 }
 
 .download ul li button {
@@ -265,15 +271,14 @@ section .section div h3 {
 }
 
 footer {
-  padding: 3% 10% 0 10%;
+  font-size: 16px;
+  padding: 3% 5% 0 5%;
   background-color: #eeeeee;
 }
 
 footer div {
   display: grid;
-  gap: 7.5%;
-  grid-gap: 7.5%;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1.3fr;
+  grid-template-columns: 1fr 1.2fr 1.2fr 1.2fr 1.3fr;
 }
 
 footer div > img {
